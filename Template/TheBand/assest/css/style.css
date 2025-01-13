@@ -70,6 +70,7 @@ body {
     left: 0;
     box-shadow: 0 8px 10px 2px #ccc;
     display: none;
+    /* z-index: 99; */
 }
 
 .header__dropdown-item {
@@ -94,10 +95,13 @@ body {
     margin-top: 54px;
 }
 
+/* --- Begin: Slide --- */
 .slides {
     display: flex;
     overflow: hidden;
     width: 100vw;
+    /* position: relative;
+    top: 0; */
 
 }
 
@@ -107,6 +111,8 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
+    z-index: -1;
+    bottom: 0;
 }
 
 .slide img {
@@ -126,5 +132,59 @@ body {
     text-align: center;
     color: #fff;
 }
+
+/* --- End: Slide --- */
+
+/*--- Begin: Infomation --- */
+.infomation__content {
+    padding: 30px;
+    margin: 0 300px;
+}
+
+.infomation__intro-head {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.infomation__intro-desc {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.6;
+    margin: 10px 0 20px 0;
+}
+
+.infomation__intro-head,
+.infomation__intro-desc {
+    text-align: center;
+}
+
+.infomation__intro-text {
+    text-align: justify;
+}
+
+.infomation__members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.infomation__member p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.infomation__member img {
+    margin: 0 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/*--- End: Infomation --- */
+
 
 /* ----- End: Content ----- */
