@@ -136,6 +136,11 @@ body {
 /* --- End: Slide --- */
 
 /*--- Begin: Infomation --- */
+.infomation {
+    margin-top: 50px;
+}
+
+.tour__content,
 .infomation__content {
     padding: 30px;
     margin: 0 300px;
@@ -185,6 +190,118 @@ body {
 }
 
 /*--- End: Infomation --- */
+
+/* --- Begin: Tour --- */
+#tour {
+    margin-top: 100px;
+    background-color: #000;
+}
+
+.tour__content {}
+
+.tour__content-head {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 100px;
+}
+
+.tour__content-head,
+.tour__content-desc {
+    text-align: center;
+}
+
+.tour__notification {
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.tour__month {
+    padding: 10px;
+}
+
+.tour__month:nth-child(1),
+.tour__month:nth-child(2) {
+    border-bottom: 1px solid #ccc;
+}
+
+.tour__month-status {
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    padding: 2px 5px;
+    margin-left: 10px;
+}
+
+.tour__month-status.no__soldout {
+    background-color: #000;
+    float: right;
+    /* padding: 5px; */
+    margin-right: 10px;
+    padding: 2px 10px;
+    border-radius: 50%;
+}
+
+.tour__tickets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tour__ticket:nth-child(2) {
+    margin: 0 14px;
+}
+
+.tour__ticket {
+    background-color: #fff;
+}
+
+.tour__ticket img {
+    width: 100%;
+}
+
+.tour__ticket-content {
+    padding: 10px;
+}
+
+.tour__ticket-content-date {
+    opacity: 0.6;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.tour__ticket-content-text {
+    font-size: 14px;
+}
+
+.tour__ticket-content-btn {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.tour__ticket-content-btn:hover {
+    background-color: #ccc;
+}
+
+/* --- End: Tour --- */
+
+/* --- Begin: Contact --- */
+#contact {
+    margin-top: 50px;
+}
+
+.contact-content-head,
+.contact-content-desc {
+    text-align: center;
+}
+
+/* --- End: Contact --- */
 
 
 /* ----- End: Content ----- */
