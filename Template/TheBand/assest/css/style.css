@@ -136,7 +136,7 @@ body {
 /* --- End: Slide --- */
 
 /*--- Begin: Infomation --- */
-.infomation {
+#infomation {
     margin-top: 50px;
 }
 
@@ -209,6 +209,11 @@ body {
 .tour__content-head,
 .tour__content-desc {
     text-align: center;
+    color: #fff;
+}
+
+.tour__content-desc {
+    margin: 20px 0 40px 0;
 }
 
 .tour__notification {
@@ -295,6 +300,20 @@ body {
     margin-top: 50px;
 }
 
+.contact-content-head {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.contact-content-desc {
+    opacity: 0.6;
+    font-size: 14px;
+    font-style: italic;
+    /* margin: 10px 0 20px; */
+}
+
 .contact-content-head,
 .contact-content-desc {
     text-align: center;
@@ -303,7 +322,6 @@ body {
 .contact-infomation {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     margin-top: 40px;
 }
 
@@ -350,5 +368,42 @@ body {
 
 /* --- End: Contact --- */
 
+/* --- Begin: Map --- */
+#map {
+    margin-top: 100px;
+}
+
+/* --- End: Map --- */
+
+/* ----- End: Content ----- */
+
+/* ----- Begin: Content ----- */
+.footer__content {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.footer__socials a {
+    padding: 5px;
+    /* background-color: #ccc; */
+    margin-bottom: 20px;
+}
+
+.footer__socials a i {
+    color: #000;
+    opacity: 0.6;
+    font-size: 20px;
+}
+
+.footer__powered p {
+    font-size: 14px;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
+.footer__powered p a {
+    /* text-decoration: none; */
+    color: #000;
+}
 
 /* ----- End: Content ----- */
