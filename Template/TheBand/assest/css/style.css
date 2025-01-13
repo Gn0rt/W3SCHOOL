@@ -5,6 +5,10 @@
     font-family: "Poppins", serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* ----- Begin: Header ----- */
 #header {
     background-color: #000;
@@ -36,8 +40,6 @@
 .header__find a {
     margin-right: 0;
 }
-
-.header__item::before {}
 
 .header__down,
 .header__find a,
@@ -85,3 +87,44 @@
 }
 
 /* ----- End: Header ----- */
+
+/* ----- Begin: Content ----- */
+#content {
+    width: 100%;
+    margin-top: 54px;
+}
+
+.slides {
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+
+}
+
+.slide {
+    /* Đảm bảo mỗi slide chiếm toàn bộ không gian ngang */
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide img {
+    /* Chiếm toàn bộ chiều ngang của slide */
+    width: 100%;
+    /* Chiếm toàn bộ chiều dọc của slide */
+    height: 100%;
+    /* Đảm bảo ảnh không bị méo và giữ tỉ lệ */
+    object-fit: cover;
+}
+
+.slide__content {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+/* ----- End: Content ----- */
