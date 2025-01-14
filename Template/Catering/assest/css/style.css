@@ -2,8 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", serif;
-
+    /* font-family: "Poppins", serif; */
+    font-size: 16px;
 }
 
 /* ----- Begin: Header ----- */
@@ -14,6 +14,7 @@
     right: 0;
     left: 0;
     box-shadow: 0 3px 10px 5px#ccc;
+    z-index: 33;
 }
 
 .header__content {
@@ -52,3 +53,24 @@
 }
 
 /* ----- End: Header ----- */
+
+/* ----- Begin: Content ----- */
+.banner img {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.banner__content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+.banner__content p {
+    font-size: 36px;
+    letter-spacing: 4px;
+    opacity: 0.6;
+}
+
+/* ----- End: Content ----- */
