@@ -49,12 +49,13 @@
 
 .header__lists .item:hover,
 .header__logo:hover {
-    background-color: antiquewhite;
+    background-color: #ccc;
 }
 
 /* ----- End: Header ----- */
 
 /* ----- Begin: Content ----- */
+/* --- Banner ---*/
 .banner img {
     width: 100%;
     object-fit: cover;
@@ -72,5 +73,54 @@
     letter-spacing: 4px;
     opacity: 0.6;
 }
+
+/* --- About ---- */
+.about__contain {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 50px 200px;
+    border-bottom: 1px solid #ccc;
+}
+
+.about__img img {
+    height: 600px;
+    opacity: 0.7;
+}
+
+.about__content {
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+.about__content-title {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-top: 20px;
+}
+
+.about__content-desc {
+    margin-top: 50px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.about__content-text {
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.about__content-text-bg {
+    display: inline-block;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    padding: 0 5px;
+
+}
+
 
 /* ----- End: Content ----- */
