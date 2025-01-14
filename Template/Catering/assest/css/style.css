@@ -52,14 +52,22 @@
     background-color: #ccc;
 }
 
+.header__navbar {
+    display: none;
+}
+
 /* ----- End: Header ----- */
 
 /* ----- Begin: Content ----- */
 /* --- Banner ---*/
+.banner {
+    position: relative;
+
+}
+
 .banner img {
     width: 100%;
     object-fit: cover;
-    position: relative;
 }
 
 .banner__content {
