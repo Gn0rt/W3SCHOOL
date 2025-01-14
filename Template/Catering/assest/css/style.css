@@ -222,3 +222,24 @@
 }
 
 /* ----- End: Content ----- */
+
+/* ----- Begin: Footer ----- */
+#footer {
+    background-color: #f1f1f1;
+    /* height: 200px; */
+    text-align: center;
+}
+
+.footer__content {
+    padding: 50px;
+}
+
+.footer__content p a {
+    color: #000;
+}
+
+.footer__content p a:hover {
+    color: #4CAF50;
+}
+
+/* ----- End: Footer ----- */
