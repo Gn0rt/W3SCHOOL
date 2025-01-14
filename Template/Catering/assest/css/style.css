@@ -75,6 +75,7 @@
 }
 
 /* --- About ---- */
+.contact__contain,
 .menu__contain,
 .about__contain {
     display: flex;
@@ -95,6 +96,7 @@
     margin-bottom: 100px;
 }
 
+.contact__content-title,
 .menu__content-title,
 .about__content-title {
     font-size: 30px;
@@ -161,6 +163,62 @@
 .menu__img img {
     /* height: 700px; */
     opacity: 0.7;
+}
+
+/* --- Contact --- */
+.contact__contain {
+    border: none;
+}
+
+.contact__content-title {
+    margin-bottom: 50px;
+}
+
+.contact__content-address {
+    margin: 20px 0 20px 0;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #607d8b;
+}
+
+.contact__content-text {
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+.contact__content-lists {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.contact__content-item {
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact__content-item input {
+    padding: 10px 10px 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.contact__content-btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    margin: 15px 0 100px 0;
+    background-color: #f1f1f1;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.contact__content-btn:hover {
+    background-color: #ccc;
 }
 
 /* ----- End: Content ----- */
