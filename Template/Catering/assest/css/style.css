@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+
+}
+
+/* ----- Begin: Header ----- */
+#header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 3px 10px 5px#ccc;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo,
+.header__lists .item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header__logo-name {
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.header__lists {
+    display: flex;
+    list-style: none;
+}
+
+.header__lists .item a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px 0;
+    letter-spacing: 4px;
+}
+
+.header__lists .item:hover,
+.header__logo:hover {
+    background-color: antiquewhite;
+}
+
+/* ----- End: Header ----- */
