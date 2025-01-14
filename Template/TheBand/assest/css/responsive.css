@@ -1,0 +1,74 @@
+@media (max-width: 740px) {
+    #container {
+        overflow-x: hidden;
+    }
+
+    #header {}
+
+    .header__item a {
+        font-size: 13px;
+    }
+
+    .header__item:nth-child(2),
+    .header__item:nth-child(3),
+    .header__item:nth-child(4) {
+        display: none;
+    }
+
+    .slide__content {
+        font-size: 13px;
+    }
+
+    .infomation__intro-text {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .contact-content,
+    .tour__content,
+    .infomation__content {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .infomation__members {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tour__month span {
+        font-size: 13px;
+    }
+
+    .tour__tickets {
+        flex-direction: column;
+    }
+
+    .tour__ticket:nth-child(2) {
+        margin: 15px 0;
+    }
+
+    .contact-infomation {
+        flex-direction: column;
+    }
+
+    .contact__info {
+        font-size: 13px;
+    }
+
+    .contact__info-inputs {
+        margin-top: 16px;
+    }
+
+    .contact__info-input2 input,
+    .contact__info-input1 input {
+        display: block;
+        width: 100%;
+    }
+
+    #map img {
+        width: 100%;
+    }
+}
