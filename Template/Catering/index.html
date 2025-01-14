@@ -161,6 +161,11 @@
             </div>
         </footer>
         <!-- End: Footer -->
+
+        <!-- Back to Top -->
+        <a href="" id="backTop">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
     </div>
 
     <script>
@@ -176,6 +181,26 @@
             if (navbarDown.classList.contains('active') && !navbarDown.contains(event.target)) {
                 navbarDown.classList.remove('active');
             }
+        });
+
+        const backTopButton = document.getElementById('backTop');
+
+        // Hiển thị nút khi cuộn xuống 200px
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 500) {
+                backTopButton.classList.add('show');
+            } else {
+                backTopButton.classList.remove('show');
+            }
+        });
+
+        // Cuộn về đầu trang khi nhấn vào nút
+        backTopButton.addEventListener('click', (event) => {
+            event.preventDefault(); // Ngăn chặn hành vi mặc định của liên kết
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Cuộn mượt mà
+            });
         });
 
     </script>
