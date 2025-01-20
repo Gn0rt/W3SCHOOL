@@ -98,4 +98,36 @@
     padding: 0 20px;
 }
 
+.project__title {
+    /* margin-bottom: 20px; */
+    line-height: 80px;
+    border-bottom: 1px solid #ccc;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.project__contain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-top: 50px;
+}
+
+.project__item {
+    position: relative;
+}
+
+.project__item img {
+    width: 100%;
+}
+
+.project__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
 /* End: Content */
