@@ -93,11 +93,16 @@
 
 
 /* project */
-.project {
+#map,
+#contact,
+#about,
+#project {
     margin-top: 50px;
     padding: 0 20px;
 }
 
+.contact__title,
+.about__title,
 .project__title {
     /* margin-bottom: 20px; */
     line-height: 80px;
@@ -119,6 +124,7 @@
 
 .project__item img {
     width: 100%;
+    height: 100%;
 }
 
 .project__content {
@@ -130,4 +136,114 @@
     padding: 10px;
 }
 
+/* About */
+.about__content {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.about__contain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.about__item {
+    border: 1px solid #ccc;
+}
+
+.about__item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.about__info {
+    padding: 10px;
+}
+
+.about__name {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.about__position {
+    opacity: 0.6;
+    margin: 10px 0;
+}
+
+.about__desc {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.about__btn {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about__btn:hover {
+    background-color: #ccc;
+}
+
+/* Contact */
+.contact__contain {
+    margin: 20px 0;
+}
+
+.contact__contain-title {
+    margin: 10px 0 20px;
+}
+
+.contact__contain input {
+    display: block;
+    padding: 8px;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact__btn {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: opacity 0.2s;
+}
+
+.contact__btn:hover {
+    opacity: 0.6;
+}
+
+#map img {
+    width: 100%;
+    object-fit: cover;
+}
+
 /* End: Content */
+
+/* Footer */
+#footer {
+    background-color: #000;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+#footer p {
+    color: #fff;
+    text-align: center;
+}
+
+#footer p a {
+    color: #fff;
+}
+
+/* End: Footer */
