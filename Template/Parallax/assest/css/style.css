@@ -4,3 +4,39 @@
     box-sizing: border-box;
     font-family: "Poppins", serif;
 }
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header__list {
+    display: flex;
+    /* align-items: center; */
+    list-style: none;
+}
+
+.header__item a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.header__find-icon:hover,
+.header__item a:hover {
+    background-color: #ccc;
+}
+
+.header__find-icon {
+    padding: 20px;
+}
