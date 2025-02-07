@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* Header */
+#content,
+#header {
+    margin: 50px;
+}
+
+.header__content {
+    text-align: center;
+
+}
+
+.header__title {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.header__text {
+    margin-top: 20px;
+}
+
+.header__text span {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 0 4px;
+}
+
+/* End: Header */
+
+/* Content */
+#content {
+    margin-top: 100px;
+}
+
+.content__contain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__main {
+    margin-right: 30px;
+}
+
+.content__main-item {
+    margin-bottom: 36px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content__main-item img {
+    width: 100%;
+}
+
+.content__main-item-content {
+    padding: 20px;
+}
+
+.content__main-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.content__main-desc {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 300;
+}
+
+.content__main-desc span {
+    opacity: 0.6;
+}
+
+.content__main-text {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.content__main-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__main-btn {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px 26px;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 3px;
+    transition: all 0.2s ease;
+}
+
+.content__main-btn:hover {
+    background-color: #ccc;
+}
+
+.content__main-comment {
+    font-size: 16px;
+}
+
+.content__main-comment span {
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    padding: 2px 8px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+/* End: Content */
